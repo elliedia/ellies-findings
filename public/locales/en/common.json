@@ -1,0 +1,50 @@
+{
+    "nav": {
+      "home": "Home",
+      "search": "Search",
+      "favorites": "Favorites",
+      "profile": "Profile",
+      "settings": "Settings"
+    },
+    "auth": {
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "signOut": "Sign out",
+      "email": "Email",
+      "password": "Password"
+    },
+    "filters": {
+      "title": "Filters",
+      "apply": "Apply Filters",
+      "clear": "Clear All",
+      "price": "Price",
+      "date": "Date",
+      "location": "Location"
+    },
+    "common": {
+      "loading": "Loading...",
+      "noResults": "No results found",
+      "error": "Something went wrong",
+      "retry": "Try again",
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "language": {
+      "select": "Select Language",
+      "en": "English",
+      "es": "Spanish",
+      "ko": "Korean",
+      "zh": "Chinese (Simplified)",
+      "vi": "Vietnamese",
+      "ja": "Japanese"
+    },
+    "test": {
+      "missingKey": "This key only exists in English",
+      "nested": {
+        "deepKey": "This is a deeply nested English-only key"
+      },
+      "interpolation": "You have {{count}} new messages"
+    }
+  }

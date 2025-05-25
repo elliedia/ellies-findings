@@ -1,0 +1,43 @@
+{
+    "nav": {
+      "home": "홈",
+      "search": "검색",
+      "favorites": "즐겨찾기",
+      "profile": "프로필",
+      "settings": "설정"
+    },
+    "auth": {
+      "signIn": "로그인",
+      "signUp": "회원가입",
+      "signOut": "로그아웃",
+      "email": "이메일",
+      "password": "비밀번호"
+    },
+    "filters": {
+      "title": "필터",
+      "apply": "필터 적용",
+      "clear": "모두 지우기",
+      "price": "가격",
+      "date": "날짜",
+      "location": "위치"
+    },
+    "common": {
+      "loading": "로딩 중...",
+      "noResults": "검색 결과가 없습니다",
+      "error": "오류가 발생했습니다",
+      "retry": "다시 시도",
+      "save": "저장",
+      "cancel": "취소",
+      "delete": "삭제",
+      "edit": "수정"
+    },
+    "language": {
+      "select": "언어 선택",
+      "en": "영어",
+      "es": "스페인어",
+      "ko": "한국어",
+      "zh": "중국어 (간체)",
+      "vi": "베트남어",
+      "ja": "일본어"
+    }
+  }

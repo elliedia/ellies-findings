@@ -1,0 +1,43 @@
+{
+    "nav": {
+      "home": "首页",
+      "search": "搜索",
+      "favorites": "收藏",
+      "profile": "个人资料",
+      "settings": "设置"
+    },
+    "auth": {
+      "signIn": "登录",
+      "signUp": "注册",
+      "signOut": "退出登录",
+      "email": "邮箱",
+      "password": "密码"
+    },
+    "filters": {
+      "title": "筛选",
+      "apply": "应用筛选",
+      "clear": "清除全部",
+      "price": "价格",
+      "date": "日期",
+      "location": "位置"
+    },
+    "common": {
+      "loading": "加载中...",
+      "noResults": "未找到结果",
+      "error": "出现错误",
+      "retry": "重试",
+      "save": "保存",
+      "cancel": "取消",
+      "delete": "删除",
+      "edit": "编辑"
+    },
+    "language": {
+      "select": "选择语言",
+      "en": "英语",
+      "es": "西班牙语",
+      "ko": "韩语",
+      "zh": "中文（简体）",
+      "vi": "越南语",
+      "ja": "日语"
+    }
+  }

@@ -1,0 +1,43 @@
+{
+    "nav": {
+      "home": "Inicio",
+      "search": "Buscar",
+      "favorites": "Favoritos",
+      "profile": "Perfil",
+      "settings": "Configuración"
+    },
+    "auth": {
+      "signIn": "Iniciar sesión",
+      "signUp": "Registrarse",
+      "signOut": "Cerrar sesión",
+      "email": "Correo electrónico",
+      "password": "Contraseña"
+    },
+    "filters": {
+      "title": "Filtros",
+      "apply": "Aplicar filtros",
+      "clear": "Borrar todo",
+      "price": "Precio",
+      "date": "Fecha",
+      "location": "Ubicación"
+    },
+    "common": {
+      "loading": "Cargando...",
+      "noResults": "No se encontraron resultados",
+      "error": "Algo salió mal",
+      "retry": "Intentar de nuevo",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "delete": "Eliminar",
+      "edit": "Editar"
+    },
+    "language": {
+      "select": "Seleccionar idioma",
+      "en": "Inglés",
+      "es": "Español",
+      "ko": "Coreano",
+      "zh": "Chino (Simplificado)",
+      "vi": "Vietnamita",
+      "ja": "Japonés"
+    }
+  }

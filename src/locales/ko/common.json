@@ -1,0 +1,21 @@
+{
+  "welcome": "엘리의 발견에 오신 것을 환영합니다",
+  "navigation": {
+    "home": "홈",
+    "about": "소개",
+    "contact": "연락처"
+  },
+  "search": {
+    "placeholder": "검색...",
+    "button": "검색"
+  },
+  "footer": {
+    "copyright": "© 2024 엘리의 발견",
+    "privacy": "개인정보 처리방침"
+  },
+  "testFallback": {
+    "nested": {
+      "partialTranslation": "이 텍스트는 한국어로 번역되어 있습니다"
+    }
+  }
+} 

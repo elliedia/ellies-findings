@@ -3,25 +3,52 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "@clerk/nextjs": "^6.20.0",
+    "@googlemaps/js-api-loader": "^1.16.8",
+    "@prisma/client": "^6.8.2",
+    "@react-email/components": "^0.0.41",
+    "@react-google-maps/api": "^2.20.6",
+    "@sendgrid/mail": "^8.1.5",
+    "@stripe/stripe-js": "^7.3.0",
+    "@tremor/react": "^3.18.7",
+    "axios": "^1.9.0",
+    "date-fns": "^4.1.0",
+    "i18next-browser-languagedetector": "^8.1.0",
+    "i18next-http-backend": "^3.0.2",
+    "mjml": "^4.15.3",
+    "mongoose": "^8.15.0",
+    "next": "14.1.0",
+    "next-i18next": "^15.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-email": "^4.0.15",
+    "recharts": "^2.15.3",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "zipcodes-nearby": "^0.1.4"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.17",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
-  }
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

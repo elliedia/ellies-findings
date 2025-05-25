@@ -1,0 +1,43 @@
+{
+    "nav": {
+      "home": "Trang chủ",
+      "search": "Tìm kiếm",
+      "favorites": "Yêu thích",
+      "profile": "Hồ sơ",
+      "settings": "Cài đặt"
+    },
+    "auth": {
+      "signIn": "Đăng nhập",
+      "signUp": "Đăng ký",
+      "signOut": "Đăng xuất",
+      "email": "Email",
+      "password": "Mật khẩu"
+    },
+    "filters": {
+      "title": "Bộ lọc",
+      "apply": "Áp dụng bộ lọc",
+      "clear": "Xóa tất cả",
+      "price": "Giá",
+      "date": "Ngày",
+      "location": "Địa điểm"
+    },
+    "common": {
+      "loading": "Đang tải...",
+      "noResults": "Không tìm thấy kết quả",
+      "error": "Đã xảy ra lỗi",
+      "retry": "Thử lại",
+      "save": "Lưu",
+      "cancel": "Hủy",
+      "delete": "Xóa",
+      "edit": "Sửa"
+    },
+    "language": {
+      "select": "Chọn ngôn ngữ",
+      "en": "Tiếng Anh",
+      "es": "Tiếng Tây Ban Nha",
+      "ko": "Tiếng Hàn",
+      "zh": "Tiếng Trung (Giản thể)",
+      "vi": "Tiếng Việt",
+      "ja": "Tiếng Nhật"
+    }
+  }

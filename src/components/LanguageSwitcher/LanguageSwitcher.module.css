@@ -1,0 +1,127 @@
+.container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .trigger {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    min-width: 140px;
+  }
+  
+  .trigger:hover {
+    border-color: #94a3b8;
+    background: #f8fafc;
+  }
+  
+  .trigger:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+  
+  .flag {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+  
+  .language {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .arrow {
+    font-size: 10px;
+    color: #64748b;
+    transition: transform 0.2s ease;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+                0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    z-index: 50;
+    min-width: 220px;
+    max-height: 300px;
+    overflow-y: auto;
+    animation: slideDown 0.2s ease-out;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 16px;
+    gap: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.2s ease;
+  }
+  
+  .option:hover {
+    background: #f1f5f9;
+  }
+  
+  .option:focus-visible {
+    outline: none;
+    background: #e2e8f0;
+  }
+  
+  .option.selected {
+    background: #f8fafc;
+    font-weight: 500;
+  }
+  
+  .nativeName {
+    flex: 1;
+  }
+  
+  .name {
+    color: #64748b;
+    font-size: 12px;
+  }
+  
+  .checkmark {
+    color: #10b981;
+    margin-left: 8px;
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 640px) {
+    .name {
+      display: none;
+    }
+    
+    .dropdown {
+      min-width: 180px;
+    }
+    
+    .trigger {
+      min-width: 120px;
+    }
+  }

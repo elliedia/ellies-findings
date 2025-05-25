@@ -1,0 +1,26 @@
+{
+  "welcome": "Welcome to Ellie's Findings",
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "button": "Search",
+    "results": "Search Results",
+    "noResults": "No results found"
+  },
+  "footer": {
+    "copyright": "© 2024 Ellie's Findings",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "testFallback": {
+    "onlyInEnglish": "This text only exists in English",
+    "nested": {
+      "onlyInEnglish": "This nested text only exists in English",
+      "partialTranslation": "This will be partially translated"
+    }
+  }
+} 
